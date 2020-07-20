@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         numbersAdapter = NumbersAdapter()
-        //numberRecyclerView.layoutManager = GridLayoutManager(this, 2)
         numberRecyclerView.layoutManager = LinearLayoutManager(this)
         numberRecyclerView.adapter = numbersAdapter
         numbersAdapter.setData(numbersList)
