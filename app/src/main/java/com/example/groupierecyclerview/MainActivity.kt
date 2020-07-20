@@ -8,12 +8,15 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     private lateinit var numbersAdapter: NumbersAdapter
-    private val numbersList: List<Int> =
-            listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18)
+    private var numbersList: MutableList<Int> = mutableListOf()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        for(i in 0..41){
+            numbersList.add(i)
+        }
 
         numbersAdapter = NumbersAdapter()
         numberRecyclerView.layoutManager = LinearLayoutManager(this)
