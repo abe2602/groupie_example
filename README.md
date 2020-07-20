@@ -5,9 +5,9 @@ Esse repositório apresenta a implementação de uma RecyclerView utilizando uti
 - [Groupie](https://github.com/lisawray/groupie)
 
 ## Como funciona?
-![alt text](https://i.imgur.com/9Vc375B.gif)
+![alt text](https://i.imgur.com/805HTKp.gif)
 
-Fazendo uso dos Itens expansíveis disponíveis na biblioteca, uma lista (usando LinearLayout) de números inteiros é exibida na MainActivity. Caso haja o toque em alguma das cédulas, o item irá expandir/colapsar.
+Fazendo uso dos Itens disponíveis na biblioteca, uma lista (usando GridLayout com duas colunas) de números inteiros é exibida na MainActivity.
 
 ## Autor
 Bruno Abe
