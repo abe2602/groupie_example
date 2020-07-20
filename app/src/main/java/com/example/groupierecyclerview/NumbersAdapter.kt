@@ -11,8 +11,6 @@ class NumbersAdapter : GroupAdapter<GroupieViewHolder>() {
             add(ExpandableGroup(ExpandableNumberItem(number = it), false).apply {
                 add(NumberItem(number = it*20))
             })
-
-           // add(NumberItem(number = it))
         }
     }
 
