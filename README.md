@@ -1,5 +1,5 @@
-# RecyclerView utilizando Groupie
-Esse repositório apresenta a implementação de uma RecyclerView utilizando utilizando a biblioteca Groupie. Existem duas branches ativas, master e normal-item, na primeira há um exemplo com itens expansíveis, na segunda com itens normais.
+# RecyclerView with Groupie
+This repository shows how to implement a RecyclerView using the Groupie library. There're two branches, master and normal-item, in the first one there's an expansive item example, and in the second one, normal items.
 
 ## Bibliotecas
 - [Groupie](https://github.com/lisawray/groupie)
@@ -7,7 +7,7 @@ Esse repositório apresenta a implementação de uma RecyclerView utilizando uti
 ## Como funciona?
 ![alt text](https://i.imgur.com/9Vc375B.gif)
 
-Fazendo uso dos Itens expansíveis disponíveis na biblioteca, uma lista (usando LinearLayout) de números inteiros é exibida na MainActivity. Caso haja o toque em alguma das cédulas, o item irá expandir/colapsar.
+Using expanded items available in Groupie, a number list is shown into the MainActivity. Any interaction with any item will be colapsed/expanded.
 
 ## Autor
 Bruno Abe
