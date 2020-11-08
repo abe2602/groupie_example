@@ -1,5 +1,5 @@
-# RecyclerView utilizando Groupie
-Esse repositório apresenta a implementação de uma RecyclerView utilizando utilizando a biblioteca Groupie. Existem duas branches ativas, master e normal-item, na primeira há um exemplo com itens expansíveis, na segunda com itens normais.
+# RecyclerView with Groupie
+This repository shows how to implement a RecyclerView using the Groupie library. There're two branches, master and normal-item, in the first one there's an expansive item example, and in the second one, normal items.
 
 ## Bibliotecas
 - [Groupie](https://github.com/lisawray/groupie)
@@ -7,9 +7,9 @@ Esse repositório apresenta a implementação de uma RecyclerView utilizando uti
 ## Como funciona?
 ![alt text](https://i.imgur.com/805HTKp.gif)
 
-Fazendo uso dos Itens disponíveis na biblioteca, uma lista (usando GridLayout com duas colunas) de números inteiros é exibida na MainActivity.
+Using the default item from Groupie, a number list is shown into the MainActivity.
 
-## Autor
+## Author
 Bruno Abe
 
 ## License
