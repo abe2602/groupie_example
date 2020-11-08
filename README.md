@@ -4,12 +4,12 @@ This repository shows how to implement a RecyclerView using the Groupie library.
 ## Bibliotecas
 - [Groupie](https://github.com/lisawray/groupie)
 
-## Como funciona?
+## How does it works?
 ![alt text](https://i.imgur.com/9Vc375B.gif)
 
 Using expanded items available in Groupie, a number list is shown into the MainActivity. Any interaction with any item will be colapsed/expanded.
 
-## Autor
+## Author
 Bruno Abe
 
 ## License
